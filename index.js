@@ -3,11 +3,11 @@ const search = document.querySelector('.search-box button');
 const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
-
+const config = require('./config');
 
 search.addEventListener('click', () => {
 
-    const APIKey = 'f87cb3b91c37339100a28f42820852eb';
+    const APIKey = config.APIKey;
     const city = document.querySelector('.search-box input').value;
 
     if(city === '')
