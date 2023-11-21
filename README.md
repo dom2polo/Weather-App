@@ -1,5 +1,5 @@
 ---
-title: Weather App
+Weather App
 ---
 
 # Overview
